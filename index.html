@@ -1,0 +1,579 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+    <script>
+      
+
+    tailwind.config = {
+      theme: {
+        screens: { 
+
+      sm: '280px',    
+
+      md: '630px',
+      // => @media (min-width: 576px) { ... }
+
+      lg: '1024px',
+      // => @media (min-width: 960px) { ... }
+
+      xl: '1280px',
+      // => @media (min-width: 1440px) { ... }
+      xl: '1280px',
+      // => @media (min-width: 1440px) { ... }
+    },
+        extend: {
+       
+          colors: {
+            pinky: '#fef2f2',
+            gree:'#05796B',
+            orang:'#F57059',
+          }
+          
+    
+          
+        }
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+      .w80{
+         width: 80%;
+      }
+      .w70{
+         width: 70%;
+      }
+      .w60{
+         width: 60%;
+      }
+      .w90{
+         width: 90%;
+      }
+      .w400{
+        width: 400px;
+      }
+      .w450{
+        width: 450px;
+      }
+      .w500{
+        width: 500px;
+      }
+      .w550{
+        width: 550px;
+      }
+      .w700{
+        width: 700px;
+      }
+      .h-400{
+         height: 400px;
+      }
+      .h-300{
+         height: 300px;
+      }
+      .h-450{
+         height: 450px;
+      }
+      .h-500{
+         height: 500px;
+      }
+      .h-600{
+         height: 600px;
+      }
+      .h-700{
+         height: 700px;
+      }
+      .h-800{
+         height: 800px;
+      }
+      .h-1000{
+         height: 1000px;
+      }
+      .w-100{
+        width: 100%;
+      }
+      .mtop8{
+        margin-top: 850px;
+      }
+      .mt-400{
+        margin-top: 400px;
+      }
+      .mt-420{
+        margin-top: 520px;
+      }
+      .mt-600{
+        margin-top: 600px;
+      }
+      .mt-700{
+        margin-top: 750px;
+      }
+      .mt-900{
+        margin-top: 920px;
+      }
+    }
+  </style>
+</head>
+
+<body class="p-0 m-0 bg-white  bg-[url('1580.png')] bg-no-repeat bg-auto">
+  <div class="  w-full sm:pt-6 ">
+  <div class="flex  flex-col items-center ">
+<nav class=" w-10/12 h-20 grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-4  lg:gap-10 sm:gap-0 md:border-b-2  border-inherit sm:border-b-2 lg:border-b-0">
+<div class="flex items-center justify-start lg:col-span-1 md:col-span-2 sm:col-span-2 ">
+<h1 class="text-3xl tracking-wide font-medium">AR</h1>
+</div>
+<div class=" sm:flex lg:hidden md:flex justify-end lg:items-center sm:items-end lg:col-span-1 sm:col-span-2 md:col-span-2  mt-3 ">
+  <ul class="w-72 flex justify-around list-none ">
+<li><button class="text-zinc-600 text-sm h-10 w-20 ">sign in</button></li>
+<li><button class="text-white lg:h-12 sm:h-8 lg:w-32 sm:w-20 bg-orang rounded-md text-sm font-medium tracking-wide">start free</button></li>
+
+</ul>
+</div>
+<div class=" flex items-center justify-around lg:col-span-1 sm:col-span-4 md:col-span-4 ">
+    <ul class="flex lisy-none  lg:justify-around md:justify-around sm:justify-between md:justify-between w-full md:mb-0 lg:mb-0 sm:mb-5">
+        <li><a href="#" class="text-sm text-zinc-600">home</a></li> 
+        <li><a href="#" class="text-sm text-zinc-600">product</a></li> 
+        <li><a href="#" class="text-sm text-zinc-600">contact</a></li>
+        <li><a href="#" class="text-sm text-zinc-600">about</a></li>
+    </ul>
+</div>
+<div class=" lg:flex sm:hidden md:hidden justify-end items-center lg:col-span-1 sm:col-span-1 md:col-span-1 ">
+    <ul class="w-72 flex justify-around list-none ">
+<li><button class="text-zinc-600  h-10 w-32 ">sign in</button></li>
+<li><button class="text-white lg:h-12 sm:h-8 lg:w-32 sm:w-20 bg-red-400 rounded-md text-sm font-medium tracking-wide">start free</button></li>
+
+</ul>
+</div>
+</nav>
+<!-- ----------------------section--------------- -->
+
+  <div class="w-full  grid lg:grid-cols-2 md:grid-cols-1 ">
+    <div class="flex w-full lg:justify-end md:justify-around sm:justify-around ">
+<div class="col-span-1 w-10/12"> 
+<p class="lg:text-lg lg:mt-12 md:mt-14 sm:mt-20  sm:text-sm ">product growth solution in single plate form</p>
+<h1 class="lg:text-5xl md:text-5xl sm:text-2xl leading-tight ">Managing business payements has never been eaiser</h1>
+<p class="lg:text-md sm:text-sm mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. In neque a magnam culpa molestiae expedita nisi quaerat eum necessitatibus et!</p>
+<div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1  mt-5 bg-white shadow-gray shadow-lg  lg:h-20 md:h-20 sm:h-32">
+  
+  <div class="flex  pl-3 pr-3 pt-2 col-span-2 ">
+    <div class="w-full">
+    <p class="lg:text-lg sm:text-sm">Register using email address</p>
+    <input type="email"  class="outline-none bg-transparent border-white border-b-2 mt-1  pl-2 h-7 lg:text-md mg:text-md sm:text-sm  text-blue-800 font-bold w-full">
+  </div>
+  </div>
+  <div class="flex items-center lg:justify-end sm:justify-around  pr-3 sm:pl-3 col-span-1 mt-2 lg:mb-0 md:mb-0 sm:mb-2">
+    <input type="submit" value="submit" class="bg-black text-white h-10 text-sm font-medium tracking-wider lg:w-32 sm:w-full">
+    <div>
+      </div>
+    </div>
+   
+</div>
+<div class="mt-10 flex">
+  <label class="flex items-center"><i class="fa-solid fa-check bg-orange-500 text-white rounded-xl h-4 w-4 text-xs flex justify-around items-center mr-1 ml-1"></i></i>Free register</label>
+  <label class="flex items-center"><i class="fa-solid fa-check bg-orange-500 text-white rounded-xl h-4 w-4 text-xs flex justify-around items-center mr-1 ml-1"></i></i>Great service</label>
+     
+    </div>
+    </div>
+</div>
+<!-- section child 2 -->
+<div class="   lg:w-550  lg:h-1000 md:h-800 sm:h-600 lg:-mt-64 md:-mt-56 sm:-mt-32 lg:-ml-64 md:-ml-20 sm:-ml-48  flex justify-around bg-[url('topright.png')] bg-no-repeat bg-cover" >
+    <!-- <img src="topright.png" class="lg:-mt-32 md:-mt-40 sm:-mt-5 md:h-700 lg:h-700 lg:w-500  sm:w-500 "  > -->
+</div>
+
+</div>
+
+</div>
+
+</div>
+<!-- brands -->
+<div class=" border-inherit border-y-2 lg:h-44 md:h-44 sm:h-52   grid lg:-mt-40 md:mt-0 sm:-mt-8 ">
+<div class="flex justify-around  sm:flex-col lg:flex-row md:flex-row  sm:items-center  h-10 mt-5 ">
+  <h1 class="lg:text-lg md:text-lg sm:text-sm lg:font-bold md:font-bold sm:font-medium  justify-center lg:flex sm:hidden md:flex ">Over 32k+  software businesses growing with AR shakir</h1>
+  <h1 class="lg:text-lg md:text-lg sm:text-md lg:font-bold md:font-bold sm:font-medium flex justify-center mt-5 lg:hidden md:hidden sm:flex ">Over 32k+  software businesses </h1>
+  <h1 class="lg:text-lg md:text-lg sm:text-md lg:font-bold md:font-bold sm:font-medium flex  mb-5 justify-center lg:hidden md:hidden sm:flex ">growing with AR shakir</h1>
+</div>
+<div class="grid lg:grid-cols-7 md:grid-cols-4 sm:grid-cols-3 lg:h-10 md:h-16 sm:h-24 md:gap-5 sm:gap-2 ">
+
+<div class="flex justify-around items-top "><img src="logo1.png" class="lg:h-5 md:h-4 sm:h-3"></div> 
+<div class="flex justify-around items-top"><img src="logo2.png" class="lg:h-4 md:h-4 sm:h-2"></div> 
+<div class="flex justify-around items-top"><img src="logo3.png" class="lg:h-5 md:h-4 sm:h-4"></div> 
+<div class="flex justify-around items-top"><img src="logo4.png" class="lg:h-4 md:h-4 sm:h-2"></div> 
+<div class="flex justify-around items-top"><img src="logo5.png" class="lg:h-5 md:h-4 sm:h-3"></div> 
+<div class="flex justify-around items-top"><img src="logo6.png" class="lg:h-5 md:h-4 sm:h-3"></div> 
+<div class="flex justify-around items-top"><img src="logo7.png" class="lg:h-5 md:h-4 sm:h-4"></div> 
+
+
+</div>
+</div>
+<div class="  flex justify-around  h-600 lg:mt-24 sm:mt-10 lg:bg-[url('335.png')] bg-no-repeat bg-auto  md:bg-none sm-none">
+  <div class="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1  gap-2 w-11/12 ">
+  <!-- section 1 -->
+  <div class="  flex justify-between  lg:items-top md:items-center sm:items-center lg:gap-0 md:gap-12 sm:gap-12 flex-col col-span-1  ">
+    <div class=" lg:w-72 md:w-3/5 sm:w-11/12">
+      <div>
+<p class="text-md font-medium text-red-500"> STOCKIE OPERATION ACCROSS THE </p>
+<H1 class="lg:text-3xl md:text-3xl sm:text-2xl  mt-1">We have best team with best process</H1>
+<p class="text-sm   mt-2 text-zinc-600 font-small">yet bed any for travelling assitance indulgence unpleasing. not thoughts all exersice  blessing indulgence way everything joy </p>
+<button class="mt-5 w-36  h-10 bg-orang text-white rounded-3xl"> Get Started</button>
+</div>
+</div >
+<div class="flex   items-center col-span-1 lg:justify-end md:justify-around sm:justify-around  lg:pt-14 md:pt-10 sm:pt-0 lg:ml-20">
+  <div class="mt-5 sm:mt-2 flex lg:w-72 md:w-3/5 sm:w-11/12   lg:justify-end md:justify-around sm:justify-around ">
+    <div class=" lg:pl-12 md:pl-0 sm:pl-0 " >
+      <img src="199.png" class="md:hidden lg:flex sm:hidden" alt="">
+        <H1 class="text-lg font-medium mb-1">Project Discovery Call 2</H1>
+      <p class="text-sm  mt-2 text-zinc-600 font-small lg:w-72 md:w-full sm:w-11/12 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, veniam? Vero voluptate molestiae hic aperiam, vel tempora.</p> 
+      <div class=" lg:-mt-44 md:-mt-52  sm:-mt-40  lg:ml-44 sm:ml-52 md:ml-52">
+        <img src="1.png" class="lg:h-56 md:h-32 sm:h-24 " alt="">
+      </div>
+       
+    </div>
+</div>
+</div>
+
+  </div>
+   <!-- section 2 -->
+  <div class="flex sm:mt-28 md:mt-32 lg:mt-0  items-center col-span-1 lg:justify-end md:justify-around sm:justify-around   lg:pt-36 md:pt-10 sm:pt-0">
+    <div class="mt-5 flex lg:w-72 md:w-3/5 sm:w-11/12 ">
+      <div class=" lg:pl-5 md:pl-0 sm:pl-0">
+        <img src="199.png" class="md:hidden lg:flex  sm:hidden" alt="">
+        <H1 class="text-lg font-medium mb-1">Project Discovery Call 2</H1>
+        <p class="text-sm  mt-2 text-zinc-600 font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, veniam? Vero voluptate molestiae hic aperiam, vel tempora.</p> 
+        <div class=" lg:-mt-44 md:-mt-52  sm:-mt-40  lg:ml-44 sm:ml-52 md:ml-52">
+          <img src="2.png" class="lg:h-56 md:h-32 sm:h-24 " alt="">
+        </div>
+    
+    </div>
+  </div>
+  </div>
+   <!-- section 3 -->
+  <div  class="flex sm:mt-28 md:mt-36 lg:mt-0 size-cover  lg:justify-end md:justify-around sm:justify-around items-top col-span-1   lg:pt-8 md:pt-10 sm:pt-0">
+    <div class=" lg:w-72 md:w-3/5 sm:w-11/12 ">
+        <img src="199.png" class="md:hidden lg:flex  sm:hidden" alt="" >
+      <H1 class="text-lg font-medium mb-1">Project Discovery Call 3</H1>
+      <p class="text-sm  mt-2 text-zinc-600 font-small ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, veniam? Vero voluptate molestiae hic aperiam, vel tempora.</p>
+      <div class=" lg:-mt-44 md:-mt-52  sm:-mt-40  lg:ml-44 sm:ml-52 md:ml-52">
+        <img src="3.png" class="lg:h-56 md:h-32 sm:h-24 " alt="">
+      </div>
+    </div>
+    </div>
+</div>
+</div>
+
+<div class="  flex justify-around   lg:mt-24 md:mt-72 sm:mt-60 flex-col items-center w-full  ">
+<div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1    lg:w-8/12 md:full sm:w-full lg:ml-0 md:ml-2 sm-mr0 lg:mr-0 md:mr-2 sm-mr-o ">
+<div class=" bg-gray-100 h-96 bg-[url('4372.png')] lg:rounded-2xl md:rounded-2xl sm:rounded-none bg-cover bg-no-repeat">
+<div class=" w-full h-full backdrop-grayscale- bg-black/60  lg:rounded-2xl md:rounded-2xl sm:rounded-none flex  items-center flex-col">
+<h1 class="w-full flex justify-around text-white lg:text-5xl md:text-4xl sm:text-2xl lg:font-normal lg:mt-28 sm:mt-16 sm:pl-4 sm:pr-3"> Push your product to next level</h1>
+<div class="w-full flex justify-around text-white lg:text-xl md:text-lg   mt-8 lg:hidden md:hidden xl:hidden sm:flex sm:pl-4  sm:pr-1"> End-to-end payment and financial management in a single solution meet the right platform to help realize </div>
+<div class="w-full flex justify-around text-white lg:text-xl md:text-lg  mt-8 sm:hidden md:flex"> End-to-end payment and financial management in a single </div>
+<div class="w-full flex justify-around text-white lg:text-xl mt-2 sm:pl-2 sm:pr-2 sm:hidden md:flex"> solution meet the right platform to help realize </div>
+<div class="w-full flex justify-around text-white lg:text-xl mt-2 "> <button class="mt-5 w-36  h-10 bg-orang text-white rounded-3xl"> Get Started</button></div>
+</div>
+</div>
+
+
+</div>
+
+</div>
+<div class="bg-[url('1578.png')]  -ml-24 lg:-mt-52 md:-mt-0 bg-no-repeat">
+<div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1  lg:w-full md:full sm:w-full lg:ml-0 md:ml-2 sm-mr0 lg:mr-0 md:mr-2 sm-mr-0 lg:pt-52 sm:pt-0 pl-24">
+  <div class="  h-72  lg:rounded-2xl md:rounded-2xl sm:rounded-none">
+  <div class=" w-full h-full   lg:rounded-2xl md:rounded-2xl sm:rounded-none flex  items-center flex-col">
+  <h1 class="w-full flex lg:justify-around md:justify-around sm: justify-start sm:pl-5 lg:text-5xl md:text-4xl sm:text-2xl lg:font-normal lg:mt-28 sm:mt-16 sm:pl-4 sm:pr-3 text-zinc-900">We help your business grow faster</h1>
+  <div class="w-full flex justify-around text-white lg:text-xl md:text-lg   mt-8 lg:hidden md:hidden xl:hidden sm:flex sm:pl-6  sm:pr-7 text-zinc-600"> Why kept vary ever home mrs. Considered sympthize ten uncommanly occasional assistance sufficient. </div>
+  <div class="w-full flex justify-around text-white lg:text-xl md:text-lg  mt-8 sm:hidden md:flex text-zinc-600">Why kept vary ever home mrs. Considered sympthize ten </div>
+  <div class="w-full flex justify-around text-white lg:text-xl mt-2 sm:pl-2 sm:pr-2 sm:hidden md:flex text-zinc-600"> uncommanly occasional assistance sufficient. </div>
+
+  </div>
+<div class="w-full flex justify-around lg:mt-9 md:mt-1 ">
+  
+<div class="w-11/12  grid lg:grid-cols-3 md:grid-cols-1 gap-6 ">
+<div class="bg-white rounded-2xl lg:h-72 md:h-52 sm:h-64 flex items-center pl-6 shadow-lg shadow-gray">
+  <ul class="h-52 md:pt-5 sm:pt-1">
+    <li><i class="fa-solid fa-trophy text-orange-500 text-3xl"></i></li>
+    <li><h1 class="text-xl font-medium lg:pt-5 md:pt-2 sm:pt-3">Offending belonging </h1></li></li>
+    <li><p class="text-sm pr-3 pt-4">Letter of on become he tented active enable to. Victnity relation sensible sociable surprise screened no up as </p></li>
+    <li><button class="text-sm text-green-700 lg:pt-7 md:pt-5 sm:pt-6">Read more <i class="fa-solid fa-arrow-right"></i></button></li>
+  </ul>
+</div>
+<div class="bg-white rounded-2xl lg:h-72 md:h-52 sm:h-64 flex items-center pl-6 shadow-lg shadow-gray">
+  <ul class="h-52 md:pt-5 sm:pt-1">
+    <li><i class="fa-solid fa-trophy text-orange-500 text-3xl"></i></li>
+    <li><h1 class="lg: text-xl font-medium lg:pt-5 md:pt-2 sm:pt-3">Promotion & provision</h1></li></li>
+    <li><p class="text-sm pr-3 pt-4">Led ask possible mistress relation elegance eat likewise debating. By messaging or am nothing amongst cheifly addresss</p></li>
+    <li><button class="text-sm text-green-700 lg:pt-7 md:pt-5 sm:pt-6">Read more <i class="fa-solid fa-arrow-right"></i></button></li>
+  </ul>
+</div>
+
+
+<div class="bg-white rounded-2xl lg:h-72 md:h-52 sm:h-64 flex items-center pl-6 shadow-lg shadow-gray">
+  <ul class="h-52 md:pt-5 sm:pt-1">
+    <li><i class="fa-sharp fa-solid fa-sun text-orange-500 text-3xl"></i></li>
+    <li><h1 class="text-xl font-medium lg:pt-5 md:pt-2 sm:pt-3">Blessing application</h1></li></li>
+    <li><p class="text-sm pr-3 pt-4">Harm windows sixteen who inquiry fortune demands. is upon sang found must shew. Really boy law county she unable her sister</p></li>
+    <li><button class="text-sm text-green-700 lg:pt-7 md:pt-5 sm:pt-6">Read more <i class="fa-solid fa-arrow-right"></i></button></li>
+  </ul>
+</div>
+
+</div>
+
+</div>
+<div class="  w-full  flex justify-around   lg:mt-12 sm:mt-10 flex-col items-center  ">
+  <div>
+<button class=" lg:w-56 sm:w-44 lg:text-lg sm:text-sm  h-10 bg-orang text-white rounded-lg "> More About Plateform</button>
+  </div>
+</div>
+</div>
+<div class="w-full  flex justify-around   lg:mt-420 sm:mt-10 md:mt-700 sm:mt-900 flex-col items-center h-64 ">
+<div class="grid lg:grid-cols-3 md:grid-cols-1 w-11/12 lg:h-28 md:h-36 sm:h-64 bg-white border-inherit border-2  rounded-xl">
+<div class="lg:col-span-1 sm:col-span-2 w-full lg:text-2xl md:text-2xl sm:text-lg font-normal flex justify-around items-center lg:pl-3 "><h1 class="">Among leave law built now.</h1></div>
+<div class="col-span-2  grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 sm:gap-5">
+<div class="lg:grid grid-cols-2 sm:flex sm:justify-center  " > <div class="flex items-center justify-around "><i class="fa-sharp fa-solid fa-star flex justify-around items-center text-xl text-zinc-900 lg:bg-gray-100 sm:bg-white h-10 w-10 rounded-md"></i></div><p class=" flex justify-around items-center text-sm text-zinc-600 pr-1 lg:w-28 md:w-48 sm:w-52 ">Village did remove enjoye.</p></div>
+<div class="lg:grid grid-cols-2 sm:flex sm:justify-center " > <div class="flex items-center justify-around "><i class="fa-solid fa-medal flex justify-around items-center text-xl text-zinc-900 lg:bg-gray-100 h-10 w-10 sm:bg-white rounded-md"></i></div><p class=" flex justify-around items-center text-sm text-zinc-600 pr-1 lg:w-28 sm:w-52 md:w-48">nay likely length sooner.</p></div>
+<div class="lg:grid grid-cols-2 sm:flex sm:justify-center " > <div class="flex items-center justify-around "><i class="fa-sharp fa-solid fa-lightbulb flex justify-around items-center text-xl text-zinc-900 lg:bg-gray-100 sm:bg-white h-10 w-10 rounded-md"></div></i> <p class=" flex justify-around items-center text-sm text-zinc-600 pr-1 lg:w-full sm:w-52 md:w-48">Expense windows Adopted.</p></div>
+</div>
+</div>
+
+
+
+    </div>
+    <div class="w-full flex justify-around lg:mt-9 md:mt-1 sm:mt-10 ">
+  
+      <div class="w-11/12  grid lg:grid-cols-2 md:grid-cols-1 gap-6 ">
+
+        <div class="lg:h-72 sm:h-60 sm:w-full  md:w-full lg:w-full bg-gray-100 shadow-lg shadow-gray rounded-2xl flex justify-center flex-col items-center">
+    <h1 class=" lg:text-3xl md:text-2xl sm:text-lg  flex justify-around"> Offend belong promote </h1>
+    <h1 class=" lg:text-3xl md:text-2xl sm:text-lg flex justify-around"> provision</h1>
+    <h1 class="text-sm  justify-around lg:hidden sm:flex pl-4 pr-0 pt-5"> Lorem ipsum dolor consectetur adipisicing elit. Minus, aperiam!
+     Lorem ipsum dolor consectetur </h1>
+    <h1 class="w-12/13 text-sm  lg:flex justify-around sm:hidden pt-5"> Lorem ipsum dolor consectetur adipisicing elit. Minus, aperiam!</h1>
+    <h1 class="w-12/13 text-sm  lg:flex justify-around sm:hidden"> Lorem ipsum dolor consectetur </h1>
+    <div class=" text-sm  flex justify-around"><button class="lg:mt-8 sm:mt-5 w-36  lg:h-12 sm:h-8 bg-orang text-white rounded-lg"> Read more</button></div>
+        </div>
+      
+        <div class="lg:h-72 sm:h-60 sm:11/12 md:w-full lg:w-full bg-gray-100 shadow-lg shadow-gray rounded-2xl flex justify-center flex-col items-center">
+          <h1 class=" lg:text-3xl md:text-2xl sm:text-lg   flex justify-around"> Consulted ourselves it </h1>
+          <h1 class=" lg:text-3xl md:text-2xl sm:text-lg  flex justify-around"> blessing Welcome</h1>
+          <h1 class=" text-sm   justify-around lg:hidden sm:flex sm:flex pl-4 pr-0 pt-5"> Lorem ipsum dolor consectetur adipisicing elit. Minus, aperiam!
+            Lorem ipsum dolor consectetur </h1>
+          <h1 class="w-12/13 text-sm  lg:flex justify-around sm:hidden pt-7"> Lorem ipsum dolor , consectetur adipisicing elit. Minus, aperiam!</h1>
+          <h1 class="w-12/13 text-sm  lg:flex justify-around sm:hidden"> Lorem ipsum dolor , consectetur </h1>
+          <div class=" text-sm  flex justify-around"><button class="lg:mt-8 sm:mt-5 w-36  lg:h-12 sm:h-8 bg-orang text-white rounded-lg"> Read more</button></div>
+        </div>
+  </div>
+  
+</div>
+<div class="w-full  flex  justify-center flex-col items-center pt-16 pb-10 ">
+  <p class="text-lg font-medium text-blue-900 "> Testimonial</p>
+  <h1 class="lg:text-3xl sm:text-xl text-zinc-800 mt-5 sm:hidden lg:flex md:flex">Check what our Client are saying</h1>
+  <div class="flex flex-col items-center lg:hidden md:hidden sm:flex h-16">
+  <h1 class="lg:text-3xl sm:text-xl text-zinc-800 mt-5 ">Check what our Client </h1>
+  <h1 class="lg:text-3xl sm:text-xl text-zinc-800  "> are saying</h1>
+</div>
+  </div>
+
+  <div class="w-full flex justify-around items-center lg:mt-16 sm:mt-10 ">
+<div class="w-11/12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 h-96 ">
+<div class="flex justify-around items-center w-full flex-col   ">
+<div class="lg:w-72 md:w-full w-60 "><img class=" " src="269.png" alt=""></div>
+<div class="lg:w-72 md:w-full   "><img class=" w-32 sm:h-32 md:h-32 lg:h-36 lg:ml-48 md:ml-44 sm:ml-32 lg:mt-36 md:mt-44 sm:mt-36" src="56.png" alt=""></div>
+<div class="lg:w-72 md:w-full "><img class="w-11/13 sm:h-72 md:h-80 lg:h-80 z-50 md:-mt-96 lg:-mt-96 sm:-mt-80 -pt-10 lg:ml-10 md:ml-10 sm:ml-2"  src="61.png" alt=""></div>
+
+
+</div>
+<div class="  pl-5">
+<p class="pt-10 text-6xl text-orang">''</p>
+<p class=""><i class="fa-sharp fa-solid fa-star text-orang "></i><i class="fa-sharp fa-solid fa-star text-orange-500 "></i><i class="fa-sharp fa-solid fa-star text-orange-500 "></i><i class="fa-sharp fa-solid fa-star text-orange-500 "></i><i class="fa-sharp text-orange-500  fa-solid fa-star"></i></p>
+<h1 class="Lg:text-xl sm:text-lg pt-3 font-medium text-zinc-800 lg:w-96 md:w-full">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus error asperiores non suscipit enim accusantium in voluptas corporis neque numquam?</h1>
+<div class="w-full flex justify-between">
+<div class="pt-10">
+<p class="text-sm font-bold">AR Shakir </p>
+<p class="text-sm text-zinc-600">CEO Get next design</p>
+</div>
+<div class="w-2/4 flex lg:justify-start sm:justify-end items-end">
+  <img src="data:image/png;base64,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" class="lg:h-6 md:h-5 sm:h-5 alt="></div>
+</div>
+</div>
+</div>
+
+  </div>
+  <div class="bg-[url('1579.png')] bg-cover bg-no-repeat lg:mt-20 md:mt-0 sm:mt-400">
+  <div class="w-full flex justify-around items-center lg:mt-20 md:mt-0 sm:-mt-32 pl-5 ">
+    <div class="w-full  h-600 grid grid-cols-1">
+    <div class="flex justify-center flex-col lg:items-center md:items-center ">
+<p class="text-sm font-bold text-orang">PROJECT MANAGEMENT</p>
+<p class="lg:text-4xl md:text-3xl sm:text-xl mt-8 lg:hidden md:hidden sm:flex">Download our App and start your free trail to get started today</p>
+<p class="lg:text-4xl md:text-3xl sm:text-xl mt-8 lg:flex md:flex sm:hidden">Download our App and start your free </p>
+<p class="lg:text-4xl md:text-3xl sm:text-xl mt-1 lg:flex md:flex  sm:hidden">trail to get started today</p>
+<p class="text-sm text-zinc-500 mt-8">End to end payments and finincal management in asingle solution</p>
+<div class="flex lg:justify-between sm:justify-around mt-8 lg:w-72 sm:w-60 "> <button class="bg-orang lg:text-md sm:text-sm font-medium rounded-3xl text-white lg:h-12 sm:h-8 lg:w-32 md:w-32 sm:w-24">Play store</button><button class="lg:w-36 md:w-36 sm:w-28 lg:h-12 sm:h-8 text-white font-medium bg-green-700 lg:text-md sm:text-sm ml-5 rounded-3xl">Google play </button>
+</div>
+    </div>
+    </div> 
+
+ 
+
+
+     </div>
+     </div>
+    <div class="w-full flex items-center  justify-around lg:mt-8 sm:mt-0 ">
+      <div class="w-10/12  sm:h-28 flex lg:justify-between sm:justify-around sm:flex-wrap md:flex-row lg:flex-row items-center ">
+      <h1 class="lg:text-3xl md:text-2xl sm:text-2xl ml-1">Our latest blog post</h1> <button class="bg-orang  lg:text-sm sm:text-sm font-medium rounded-xl text-white sm:h-8 lg:h-12 lg:w-52 md:w-40 sm:w-40 ml-2">See all blog posts</button>
+      </div>
+          </div>
+
+<div class="w-full flex justify-around mt-5 ">
+  <div class=" h-96 w-11/12 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 ">
+    <div class=" flex ">
+      <div class="w-full pt-2 flex justify-around flex-col items-center ">
+        <img class="h-52 rounded-xl md:w-full sm:w-10/12" src="177.png" alt="">
+      <div class=" flex justify-around flex-col items-center sm:w-10/12">
+        <p class="w-60 flex justify-between mt-4 text-sm text-blue-400"> <label >8-11-12</label><label >Category</label></p>
+       <p class=" mt-2 text-lg text-blue-1000 w-full">Bleaving ipsum dolor sit amet consectetur.</p>
+       <p class=" mt-2 text-sm text-zinc-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, velit! Temporibus, cum. Vitae, eligendi eaque!</p>
+      </div>
+      </div>
+    </div>
+    <div class="">
+      <div class="w-full pt-3 flex justify-around flex-col items-center ">
+        <img class="h-52 rounded-xl md:w-full sm:w-10/12"  src="178.png" alt="">
+        <div class="flex justify-around flex-col items-center sm:w-10/12">
+          <p class="w-60 flex justify-between mt-4 text-sm text-blue-400"> <label >11-19-13</label><label >Category</label></p>
+         <p class=" mt-2 text-lg text-blue-1000 w-full">In design you know ipsum dolor sit amet consectetur.</p>
+         <p class="mt-2 text-sm text-zinc-500">Lorem ipsum dolor sit amet dolla sit ammet consectetur, Lorem, ipsum. adipisicing elit. Quia, velit! Temporibus, cum. Vitae, eligendi eaque!</p>
+        </div>
+      </div>
+    </div>
+    <div class=" grid lg:grid-cols-1 md:grid-cols-2 sm:grid-cols-1  mt-1 lg:col-span-1 md:col-span-2 sm:pl-5 ">
+      
+        <div class=" flex justify-around border-b-2 items-center border-gray lg:h-20 md:h-24 ">
+        <div class="flex justify-around items-center  h-12">
+          <img class="h-16 w-24 rounded-lg" src="179.png" alt="">
+        </div>
+        <div class="w-48 h-20 ml-2 sm:flex flex-col justify-center"  >
+          <p class="w-32 flex justify-between  text-sm text-blue-400"> <label >11-19-13</label><label >Category</label></p>
+          <p class=" text-sm text-zinc-700"> Quia, velit! Temporibus, cum. Vitae, eligendi eaque!</p>
+        
+        </div>
+        </div>
+        <div class="  flex justify-around items-center border-b-2 border-inherit h-24">
+          <div class="flex justify-around items-center  h-12">
+            <img class="h-16 w-24 rounded-lg" src="180.png" alt="">
+          </div>
+          <div class="w-48 h-20 ml-2 flex flex-col justify-center">
+            <p class="w-32 flex justify-between  text-sm text-blue-400"> <label >11-19-13</label><label >Category</label></p>
+            <p class=" text-sm text-zinc-700"> Quia, velit! Temporibus, cum. Vitae, eligendi eaque!</p>
+          
+          </div>
+        </div>
+        <div class="  flex justify-around items-center border-b-2 border-inherit h-24 ">
+          <div class="flex justify-around items-center  h-12">
+            <img class="h-16 w-24 rounded-lg" src="181.png" alt="">
+          </div>
+          <div class="w-48 h-20 ml-2 flex flex-col justify-center">
+            <p class="w-32 flex justify-between  text-sm text-blue-400"> <label >11-19-13</label><label >Category</label></p>
+            <p class=" text-sm text-zinc-700"> Quia, velit! Temporibus, cum. Vitae, eligendi eaque!</p>
+          
+          </div>
+        </div>
+        <div class=" flex justify-around items-center border-b-2 border-inherit h-24">
+          <div class="flex justify-around items-center h-12">
+            <img class="h-16 w-24 rounded-lg" src="182.png" alt="">
+          </div>
+          <div class="w-48 h-20 ml-2 flex flex-col justify-center">
+            <p class="w-32 flex justify-between  text-sm text-blue-400"> <label >11-19-13</label><label >Category</label></p>
+            <p class=" text-sm text-zinc-700"> Quia, velit! Temporibus, cum. Vitae, eligendi eaque!</p>
+          
+          </div>
+        </div>
+       
+    </div>
+
+ 
+    </div>
+    </div>
+    <div class=" flex justify-around bg-gree lg:mt-10 md:mt-72 sm:mt-900 ">
+      <div class="w-11/13 grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 ">
+      <div class=" lg:h-96 md:h-84 sm:h-72 lg:pl-20 md:pl-10 sm:pl-5 flex justify-around ">
+     <div class="flex justify-around flex-col lg:w-full  md:w-2/4 sm:w-12/13">
+      <p class=" text-sm font-medium text-white h-10 mt-10">WHY CHOOSE</p>
+      <h1 class="lg:text-4xl md:text-3xl sm:text-2xl text-white font-normal lg:w-96 md:72  leading-tight sm:mb-5 md:mb-5" >Track your crypto portfolio on the best way possible</h1>
+      <p class="text-md text-sm text-white  leading-normal lg:mb-20 sm:mb-10 md:mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione cum explicabo quisquam iste reprehenderit deserunt quae doloremque aperiam incidunt nihil?</p>
+     </div>
+      </div>
+      <div class=" lg:h-96 md:h-66 sm:h-60 flex items-center lg:pt-32 md:pt-10 sm:pt-8 flex-col ">
+      <div class="flex justify-around flex-col">
+      <input type="email" placeholder="Email Address" class="mt-0 w-60 h-10 rounded-md backdrop-blur-sm bg-white/30 outline-none pl-4">
+      <input type="text"  placeholder ="password"class="mt-5 w-60 h-10 rounded-md backdrop-blur-sm bg-white/30 outline-none pl-4">
+      <button class="mt-5 w-60 h-10 bg-orang text-white text-md rounded-md font-medium ">Get started</button>
+    </div>
+
+      </div>
+ 
+      </div>
+      
+             
+   </div> 
+   <div class="w-full bg-white  flex justify-around  lg:pb-12 sm:pb-5 flex ">
+        <div class="w-11/12 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  lg:mt-20 sm:mt-8 border-b-2 border-inherit "> 
+<div class="flex lg:items-center flex-col sm:ml-5  sm:w-full" >
+  <ul>
+    <li><h1 class="lg:text-lg sm:text-md font-medium ">AR Shakir</h1></li>
+    <li><p class="mt-3 text-sm text-zinc-500">Lorem ipsum dolor sit. dolar</p></li>
+    <li><p class="mt-1 text-sm text-zinc-500">Lorem ipsum dolor sit.</p></li>
+  </ul>
+  <ul class="flex lg:w-32 md:w-32 sm:w-28 justify-between mt-5 ">
+    <li><i class="fa-brands fa-linkedin-in text-blue-800 sm:text-sm md:text-lg "></i></li>
+    <li><i class="fa-brands fa-facebook-messenger text-blue-800 sm:text-sm md:text-lg"></i></li>
+    <li><i class="fa-brands fa-twitter text-blue-800 sm:text-sm md:text-lg"></i></li>
+    <li><i class="fa-solid fa-infinity text-blue-800 sm:text-sm md:text-lg"></i></li>
+  </ul>
+</div>
+
+<div class="flex lg:items-center flex-col sm:ml-10 ">
+  <ul>
+    <li><h1 class="lg:text-lg sm:text-md  font-medium ">Company</h1></li>
+    <li><p class="mt-3 text-sm text-zinc-500">About us</p></li>
+    <li><p  class="mt-3 text-sm text-zinc-500">Career</p></li>
+    <li><p  class="mt-3 text-sm text-zinc-500">Blog</p></li>
+    <li><p  class="mt-3 text-sm text-zinc-500">Pricing</p></li>
+  </ul>
+        </div>
+
+<div class="flex lg:items-center flex-col sm:ml-5 sm:mt-5 md:mt-0 lg:mt-0  sm:w-full">
+  <ul>
+    <li><h1 class="lg:text-lg sm:text-md  font-medium "> Resources</h1></li>
+    <li><p  class="mt-3 text-sm text-zinc-500">Teplates</p></li>
+    <li><p  class="mt-3 text-sm text-zinc-500">Tutorial</p></li>
+    <li><p  class="mt-3 text-sm text-zinc-500">Free resources</p></li>
+    <li><p  class="mt-3 text-sm text-zinc-500">Contract template</p></li>
+  </ul>
+        </div>  
+
+<div class="    pl-1 md:mt-5 lg:mt-0  md:col-span-2 sm:col-span-2 lg:col-span-1 lg:mb-16 sm:mb-5 sm:ml-0 md:ml-5 lg:ml-0 sm:mt-5  lg:w-64 sm:w-full">
+  <ul class="grid grid-cols-2">
+    <li class="col-span-2"><h1 class="lg:text-lg sm:text-md  font-medium  ">Join our News letter</h1></li>
+    <li class="lg:w-66 md:w-full col-span-2 "><p class="mt-3"><input class="bg-gray-100 outline-none text-sm pl-2 h-9 " type="email" placeholder="your email address"><button class="bg-blue-400 text-white text-sm font-medium w-20 h-9">Subscribe</button></p></li>
+    <li class="col-span-2"><p  class="mt-3 text-sm text-zinc-400 col-span-2">* Will send you weekly updates for your better</p></li>
+    
+  </ul>
+        </div>     
+  </div> 
+  </div>
+            
+<!-- next -->
+
+</div>
+
+</div>
+
+</body>
+</html>
